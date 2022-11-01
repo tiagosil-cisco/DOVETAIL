@@ -12,6 +12,11 @@ terraform {
     aci = {
       source = "ciscodevnet/aci"
     }
+    
+    mso = {
+      source = "CiscoDevNet/mso"
+    }
+    
 
   }
 }
